@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
+[PROJECT__URL]: https://eplay-monosodrac.vercel.app/
+[NODE_BADGE]:https://img.shields.io/badge/node.js-20.16.0-43853D?style=for-the-badge&logo=node.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center" style="font-weight: bold;">Eplay 💻</h1>
 
-## Available Scripts
+![react][REACT__BADGE]
+![typescript][TYPESCRIPT__BADGE]
+![javascript][JAVASCRIPT__BADGE]
+![node][NODE_BADGE]
 
-In the project directory, you can run:
+<details open="open">
+<summary>Table of Contents</summary>
+ 
+- [📌 About](#about)
+- [🚀 Getting started](#started)
+  - [Prerequisites](#prerequisites)
+  - [Cloning](#cloning)
+  - [Starting](#starting)
+- [📍 Application Routes](#routes)
+- [🤝 How to reach me](#reach)
+  
+</details>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+    <img src="./src/assets/images/eplay-cover.png" alt="Cover image" width="400px">
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2 id="about">📌 About</h2>
 
-### `npm test`
+Eplay is web a game store, and this is the final project for frontend part of the Full-Stack Python course by [EBAC](https://ebaconline.com.br/full-stack-python)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![project][PROJECT__BADGE]][PROJECT__URL]
 
-### `npm run build`
+<h2 id="started">🚀 Getting started</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Prerequisites</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [NodeJS](https://nodejs.org/en/download)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>Cloning</h3>
 
-### `npm run eject`
+```bash
+git clone https://github.com/monosodrac/eplay.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h3>Starting</h3>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd eplay
+npm install
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h2 id="routes">📍 Application Routes</h2>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/</kbd>     | page to Home
+| <kbd>/categories</kbd>     | page to games listed by its category
+| <kbd>/product/:id</kbd>     | page to detail product by its id
 
-## Learn More
+<h2 id="reach">🤝 How to reach me</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://linktr.ee/monosodrac">
+        <img src="https://avatars.githubusercontent.com/u/141099551?v=4" width="100px;" alt="Mono Cardoso Profile Picture"/><br>
+        <sub>
+          <b>Mono</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
