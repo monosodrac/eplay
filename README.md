@@ -3,7 +3,7 @@
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 [PROJECT__URL]: https://eplay-monosodrac.vercel.app/
-[NODE_BADGE]:https://img.shields.io/badge/node.js-20.16.0-43853D?style=for-the-badge&logo=node.js
+[NODE_BADGE]: https://img.shields.io/badge/node.js-20.16.0-43853D?style=for-the-badge&logo=node.js
 
 <h1 align="center" style="font-weight: bold;">Eplay 💻</h1>
 
@@ -24,7 +24,6 @@
 - [🤝 How to reach me](#reach)
   
 </details>
-
 
 <p align="center">
     <img src="./src/assets/images/eplay-cover.png" alt="Cover image" width="400px">
@@ -58,11 +57,11 @@ npm start
 
 <h2 id="routes">📍 Application Routes</h2>
 
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>/</kbd>     | page to Home
-| <kbd>/categories</kbd>     | page to games listed by its category
-| <kbd>/product/:id</kbd>     | page to detail product by its id
+| route                   | description                          |
+| ----------------------- | ------------------------------------ |
+| <kbd>/</kbd>            | page to Home                         |
+| <kbd>/categories</kbd>  | page to games listed by its category |
+| <kbd>/product/:id</kbd> | page to detail product by its id     |
 
 <h2 id="reach">🤝 How to reach me</h2>
 
