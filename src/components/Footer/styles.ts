@@ -4,8 +4,9 @@ import { cores } from '../../styles'
 
 export const Container = styled.footer`
   padding: 32px 0;
-  background-color: ${cores.cinza};
+  margin-top: 40px;
   font-size: 14px;
+  background-color: ${cores.cinza};
 `
 
 export const SectionTitle = styled.h4`
