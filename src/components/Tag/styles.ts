@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { cores } from '../../styles'
+import { colors } from '../../styles'
 
 import { Props } from '.'
 
@@ -9,6 +9,6 @@ export const TagContainer = styled.div<Props>`
   border-radius: 8px;
   font-size: ${(props) => (props.size === 'big' ? '16px' : '10px')};
   font-weight: bold;
-  background-color: ${cores.verde};
-  color: ${cores.branca};
+  background-color: ${colors.green};
+  color: ${colors.white};
 `
