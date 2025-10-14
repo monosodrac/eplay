@@ -17,10 +17,15 @@ export const HeaderBar = styled.header`
   border-radius: 16px;
   background-color: ${colors.gray};
 
-  a {
-    color: ${colors.white};
+  a,
+  span {
     text-decoration: none;
     font-weight: bold;
+    color: ${colors.white};
+  }
+
+  h1 {
+    line-height: 0;
   }
 `
 
@@ -74,8 +79,9 @@ export const LinkItem = styled.li`
   }
 `
 
-export const CartButton = styled.a`
+export const CartButton = styled.span`
   display: flex;
+  cursor: pointer;
 
   img {
     margin-left: 16px;
